@@ -2,7 +2,8 @@ version: '3.7'
 services:
   minecraft:
     environment:
-      MEMORY: 1G
+      MEMORY: 6G
       SERVER_NAME: ${SERVER_NAME}
-      MAX_PLAYERS: 20
-      MOTD: 'My minecraft server'
+      MAX_PLAYERS: 100
+      MOTD: 'Servidor da Unicamp!'
+      SEED: 1990327441522823572

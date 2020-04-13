@@ -233,7 +233,7 @@
           "defaults": {
             "links": [],
             "mappings": [],
-            "max": 4000000000,
+            "max": 6000000000,
             "min": 0,
             "thresholds": [
               {
@@ -242,7 +242,7 @@
               },
               {
                 "color": "red",
-                "value": 3000000000
+                "value": 5000000000
               }
             ],
             "title": "",
