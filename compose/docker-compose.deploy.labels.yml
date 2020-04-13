@@ -47,7 +47,7 @@ services:
         # Minecraft port is the entrypoint
         - traefik.tcp.routers.minecraft.entrypoints=mc
         # Dynmap service
-        - traefik.http.routers.dynmap.rule=Host(`map.${DOMAIN}`)
+        - traefik.http.routers.dynmap.rule=Host(`mapa.${DOMAIN}`)
         - traefik.http.services.dynmap.loadbalancer.server.port=8123
         - traefik.http.routers.dynmap.tls=true
         - traefik.http.routers.dynmap.tls.certresolver=le
