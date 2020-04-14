@@ -34,10 +34,10 @@ services:
       - traefik.http.services.rcon.loadbalancer.server.port=4326
       # Development env only uses http
       - traefik.http.routers.rcon.entrypoints=web
-      # Enable debugging through the load balancer
-      - traefik.http.routers.rcon-ws.rule=Host(`rcon.${DOMAIN-localhost}`)
+      # Enable websockets through extra service
+      - traefik.http.routers.rcon-ws.rule=Host(`rcon-ws.${DOMAIN-localhost}`)
       - traefik.http.services.rcon-ws.loadbalancer.server.port=4327
-      - traefik.http.routers.rcon-ws.entrypoints=rcon-ws
+      - traefik.http.routers.rcon-ws.entrypoints=web
       - traefik.http.routers.rcon-ws.service=rcon-ws
   grafana:
     labels:

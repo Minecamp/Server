@@ -12,6 +12,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro
   rcon:
     volumes:
+      - ../rcon/config.js:/opt/rcon-web-admin/config.js
       - rcon_db:/opt/rcon-web-admin/db
   prometheus:
     volumes:

@@ -75,11 +75,11 @@ services:
         # Access using https
         - traefik.http.routers.rcon.entrypoints=websecure
         # Enable wss through the load balancer
-        - traefik.http.routers.rcon-ws.rule=Host(`rcon.${DOMAIN}`)
+        - traefik.http.routers.rcon-ws.rule=Host(`rcon-ws.${DOMAIN}`)
         - traefik.http.services.rcon-ws.loadbalancer.server.port=4327
         - traefik.http.routers.rcon-ws.tls=true
         - traefik.http.routers.rcon-ws.tls.certresolver=le
-        - traefik.http.routers.rcon-ws.entrypoints=rcon-ws
+        - traefik.http.routers.rcon-ws.entrypoints=websecure
         - traefik.http.routers.rcon-ws.service=rcon-ws
   grafana:
     deploy:
