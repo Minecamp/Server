@@ -6,6 +6,9 @@
 !*/
 !*/config.yml
 !*/config.yml
+WorldEdit
+WorldGuard
+LuckPerms/lib
 
 # Essentials
 !/Essentials/kits.yml
