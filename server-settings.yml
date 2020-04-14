@@ -6,4 +6,5 @@ services:
       SERVER_NAME: ${SERVER_NAME}
       MAX_PLAYERS: 100
       MOTD: 'Servidor da Unicamp!'
-      SEED: 1990327441522823572
+      ICON: 'https://i.imgur.com/rW6DkF6.png'
+      OPS: GustavoHM

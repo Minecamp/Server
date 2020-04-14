@@ -1,0 +1,12 @@
+*
+!plugins/
+!plugins/*
+!mods/
+!mods/*
+!.gitignore
+!bukkit.yml
+!permissions.yml
+!commands.yml
+!paper.yml
+!server.properties
+!spigot.yml

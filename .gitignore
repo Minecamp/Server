@@ -2,14 +2,6 @@
 acme.json
 backups/
 
-# Server files
-server/*
-!server/plugins/
-server/plugins/*
-!server/plugins/*.jar
-!server/plugins/PrometheusExporter/config.yml
-!server/mods
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

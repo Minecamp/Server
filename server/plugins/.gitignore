@@ -1,0 +1,13 @@
+*
+!.gitignore
+!*.jar
+
+# Plugin configs
+!*/
+!*/config.yml
+!*/config.yml
+
+# Essentials
+!/Essentials/kits.yml
+!/Essentials/motd.txt
+!/Essentials/rules.txt

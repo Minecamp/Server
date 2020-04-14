@@ -1,0 +1,4 @@
+&6Olá, {PLAYER}&6!
+&6Digite &f/help&6 para a lista de comandos.
+&6Digite &f/rules&6 para ler as regras do servidor.
+&6Jogadores online:&c {ONLINE} &6- Hora no mundo:&c {WORLDTIME24}
