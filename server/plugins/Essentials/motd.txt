@@ -2,3 +2,4 @@
 &6Digite &f/help&6 para a lista de comandos.
 &6Digite &f/rules&6 para ler as regras do servidor.
 &6Jogadores online:&c {ONLINE} &6- Hora no mundo:&c {WORLDTIME24}
+&6[Novidades]&f Você agora pode proteger suas coisas usando o &cGriefPrevention&f. Para começar, pegue seu kit com &9\kit claim&f. Se tiver dúvidas sobre como usar, pesquise por &c"GriefPrevention minecraft"&f no Google ou peça ajuda dos colegas.

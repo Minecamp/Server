@@ -3,8 +3,9 @@
 !plugins/*
 !mods/
 !mods/*
-!datapacks/
-!datapacks/*
+!world/
+!world/datapacks/
+!world/datapacks/*.zip
 !.gitignore
 !bukkit.yml
 !permissions.yml
