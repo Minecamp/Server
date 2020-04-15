@@ -1,0 +1,78 @@
+#Guia
+&lBem-vindos!
+&r 
+Esse livro contém os seguintes tópicos:
+- &lO que fazer&r
+- &lRegras&r
+- &lComandos&r
+- &lProtegendo suas coisas&r
+- &lPlugins&r
+- &lDatapacks&r
+&r 
+&r 
+&lO que fazer&r
+&r 
+Você está livre pra fazer qualquer coisa nesse servidor, mas como o foco dele é a comunidade da Unicamp, fique de olho em iniciativas dos outros jogadores com relação a isso.
+&r 
+&r 
+&lRegras (&6/rules&0):&r
+&r 
+Pode:
+- Ter bom senso
+- Se divertir
+&r 
+Não pode:
+- Ser cuzão
+- Griefing
+- Spam
+- Ads
+&r 
+&r 
+&lComandos(&6/help&0):&r
+&r 
+- &6/sethome &r: Define sua casa
+- &6/home &r: Teleporta para casa
+- &6/tpa <nome> &r: Teleporta para um usuário
+- &6/tpaccept &r: Aceita pedido de teleporte
+- &6/tpdeny &r: Nega pedido de teleporte
+
+&lProtegendo suas coisas:&r
+&r 
+Vídeo: &1http://bit.ly/mcgpuser&r
+&r 
+Comece pegando seu kit de claim com:
+&6/kit claim &r
+Você começa podendo proteger uma área de 100 blocos e ganha mais 100 a cada hora de jogo.
+&r 
+Para proteger um baú, basta colocá-lo
+no chão. Se você tiver blocos de protecão sobrando ele será automaticamente protegido.
+&r 
+Para proteger mais espaços ou espaços novos, use a pá dourada e o graveto que vêm no kit claim.
+&r 
+Para detalhes, assista ao vídeo.
+&r 
+&r 
+&r 
+&r 
+&r 
+&r 
+&r 
+&lDatapacks:&r
+&r 
+Para ver todos os datapacks instalados, clique nesse link:
+&r 
+&1&lhttps://vanillatweaks.net/share#NbAFo4&r
+&r 
+&r 
+&r 
+&r 
+&lPlugins:&r
+&r 
+Esses são os plugins instalados no servidor:
+- dynmap
+- EssentialsX
+- GriefPrevention
+- LuckPerms
+- Vault
+- WorldEdit
+- WorldGuard
