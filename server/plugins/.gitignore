@@ -8,7 +8,7 @@
 !*/config.yml
 WorldEdit
 WorldGuard
-LuckPerms/lib
+LuckPerms/
 
 # Essentials
 !/Essentials/kits.yml
