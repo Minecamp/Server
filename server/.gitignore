@@ -3,6 +3,8 @@
 !plugins/*
 !mods/
 !mods/*
+!datapacks/
+!datapacks/*
 !.gitignore
 !bukkit.yml
 !permissions.yml
