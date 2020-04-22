@@ -6,12 +6,17 @@
 !*/
 !*/config.yml
 !*/config.yml
-WorldEdit
-WorldGuard
-LuckPerms/
 
 # Essentials
 !/Essentials/kits.yml
 !/Essentials/motd.txt
 !/Essentials/rules.txt
 !/Essentials/book.txt
+!/Essentials/worth.yml
+!/Essentials/spawn.yml
+!/Essentials/jail.yml
+!/Essentials/info.txt
+
+# LuckPerms
+!LuckPerms/
+!LuckPerms/*
