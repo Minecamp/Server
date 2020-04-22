@@ -310,24 +310,24 @@ pastebin-createkit: false
 # Color is not an actual sign, it's for enabling using color codes on signs, when the correct permissions are given.
 
 enabledSigns:
-  #- color
-  #- balance
-  #- buy
-  #- sell
-  #- trade
+  - color
+  - balance
+  - buy
+  - sell
+  - trade
   #- free
   #- disposal
   #- warp
   #- kit
   #- mail
-  #- enchant
+  - enchant
   #- gamemode
   #- heal
-  #- info
+  - info
   #- spawnmob
   #- repair
-  #- time
-  #- weather
+  - time
+  - weather
 
 # How many times per second can Essentials signs be interacted with per player.
 # Values should be between 1-20, 20 being virtually no lag protection.
@@ -357,7 +357,7 @@ backup:
   #command: 'rdiff-backup World1 backups/World1'
 
 # Set this true to enable permission per warp.
-per-warp-permission: false
+per-warp-permission: true
 
 # Sort output of /list command by groups.
 # You can hide and merge the groups displayed in /list by defining the desired behaviour here.
@@ -600,7 +600,7 @@ world-home-permissions: false
 # Create the 'home-rank' below, and give the matching permission: essentials.sethome.multiple.<home-rank>
 # For more information, visit http://wiki.ess3.net/wiki/Multihome
 sethome-multiple:
-  default: 2
+  default: 3
   vip: 5
   staff: 10
 
@@ -626,7 +626,7 @@ max-projectile-speed: 8
 # For more information, visit http://wiki.ess3.net/wiki/Essentials_Economy
 
 # Defines the balance with which new players begin. Defaults to 0.
-starting-balance: 0
+starting-balance: 20
 
 # worth-# defines the value of an item when it is sold to the server via /sell.
 # These are now defined in worth.yml
@@ -637,7 +637,14 @@ command-costs:
   # /example costs $1000 PER USE
   #example: 1000
   # /kit tools costs $1500 PER USE
-  #kit-tools: 1500
+  warp-vila: 5
+  spawn: 5
+  home: 5
+  sethome: 20
+  delhome: 1000
+  tpa: 20
+  tphere: 20
+  kit-claim: 10
 
 # Set this to a currency symbol you want to use.
 # Remember, if you want to use special characters in this document, 
@@ -653,7 +660,7 @@ max-money: 10000000000000
 min-money: -10000
 
 # Enable this to log all interactions with trade/buy/sell signs and sell command.
-economy-log-enabled: false
+economy-log-enabled: true
 
 # Minimum acceptable amount to be used in /pay.
 minimum-pay-amount: 0.001
@@ -669,7 +676,7 @@ minimum-pay-amount: 0.001
 # For 1.234,50 use de-DE
 # For 1,234.50 use en-US
 # For 1'234,50 use fr-ch
-#currency-symbol-format-locale: en-US
+currency-symbol-format-locale: pt-BR
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -701,7 +708,7 @@ chat:
   # Users with essentials.chat.shout can override this by prefixing text with an exclamation mark (!)
   # Users with essentials.chat.question can override this by prefixing text with a question mark (?)
   # You can add command costs for shout/question by adding chat-shout and chat-question to the command costs section."
-  radius: 0
+  radius: 50
 
   # Chat formatting can be done in two ways, you can either define a standard format for all chat.
   # Or you can give a group specific chat format, to give some extra variation.

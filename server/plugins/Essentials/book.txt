@@ -29,12 +29,20 @@ Não pode:
 &r 
 &r 
 &lComandos(&6/help&0):&r
-&r 
 - &6/sethome &r: Define sua casa
 - &6/home &r: Teleporta para casa
 - &6/tpa <nome> &r: Teleporta para um usuário
 - &6/tpaccept &r: Aceita pedido de teleporte
 - &6/tpdeny &r: Nega pedido de teleporte
+- &6/warps &r: Lista de warps
+- &6/balance &r: Checa seu $
+- &6/balancetop &r: Lista da galera mais rica
+- &6/pay &r: Transfere $
+- &6/sell <item>&r: Vende para o servidor
+- &6/sell hand&r: Vende o item na sua mão
+&r 
+&r 
+&r 
 
 &lProtegendo suas coisas:&r
 &r 

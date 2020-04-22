@@ -2,4 +2,7 @@
 &6Digite &f/help&6 para a lista de comandos.
 &6Digite &f/rules&6 para ler as regras do servidor.
 &6Jogadores online:&c {ONLINE} &6- Hora no mundo:&c {WORLDTIME24}
-&6[Novidades]&f Você agora pode proteger suas coisas usando o &cGriefPrevention&f. Para começar, pegue seu kit com &9\kit claim&f. Se tiver dúvidas sobre como usar, pesquise por &c"GriefPrevention minecraft"&f no Google ou peça ajuda dos colegas.
+&6[Novidades]&f:
+- &6[Zona criativa]&f Acesse ela com &9/warp criativo&f e leia as placas com atenção!
+- &6[Economia]&f Experimente o sistema de economia do servidor! Venda itens com &9/sell&f e experimente o comércio do spawn com &9/warp comercio&f!
+- &6[Chat]&f As mensagens agora são locais e viajam só 50 blocos! Para enviar pro servidor todo, coloque um "&9!&f" na frente da sua mensagem.

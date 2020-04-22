@@ -24,7 +24,7 @@ GriefPrevention:
     Claim Blocks Accrued Per Hour:
       Default: 100
     Max Accrued Claim Blocks:
-      Default: 3000
+      Default: 5000
     Accrued Idle Threshold: 0
     AccruedIdlePercent: 0
     AbandonReturnRatio: 1.0
@@ -54,7 +54,7 @@ GriefPrevention:
     RavagersBreakBlocks: true
     FireSpreadsInClaims: false
     FireDamagesInClaims: false
-    LecternReadingRequiresAccessTrust: true
+    LecternReadingRequiresAccessTrust: false
   Spam:
     Enabled: true
     LoginCooldownSeconds: 60
@@ -100,7 +100,7 @@ GriefPrevention:
   LimitSkyTrees: true
   LimitTreeGrowth: false
   CheckPistonMovement: true
-  LimitPistonsToLandClaims: true
+  LimitPistonsToLandClaims: false
   FireSpreads: false
   FireDestroys: false
   AdminsGetWhispers: false
