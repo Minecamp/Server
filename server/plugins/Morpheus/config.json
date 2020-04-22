@@ -1,0 +1,23 @@
+{
+  "messages": {
+    "command": {
+      "noPermission": "§4No permission.",
+      "configurationReloaded": "§7Configuration reloaded.",
+      "unresolvedSubcommand": "§7Unknown subcommand. Available: reload."
+    },
+    "leftBed": "§f%player% §7got out of bed, %sleeping%% of players are sleeping.",
+    "goodMorningTitle": {
+      "title": "§2Good morning,",
+      "subtitle": "§2the night was skipped!",
+      "fadeIn": 20,
+      "stay": 20,
+      "fadeOut": 20
+    },
+    "wentToBed": "§f%player% §7is now sleeping, skipping night.",
+    "wentToBedNotEnough": "§f%player% §7is now sleeping, %sleeping%% of player are sleeping. %notenough%.",
+    "notEnoughPlayersChoiceFormat": "1# §fone §7player is not enough|1\u003c§f{0} §7players are not enough"
+  },
+  "notificationMode": "ACTION_BAR",
+  "enableGoodMorningTitle": true,
+  "shareOfPlayers": 0.5
+}

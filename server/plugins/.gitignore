@@ -5,7 +5,7 @@
 # Plugin configs
 !*/
 !*/config.yml
-!*/config.yml
+!*/config.json
 
 # Essentials
 !/Essentials/kits.yml
@@ -20,3 +20,8 @@
 # LuckPerms
 !LuckPerms/
 !LuckPerms/*
+
+# World Edit
+!WorldEdit/
+!WorldEdit/schematics/
+!WorldEdit/schematics/*
