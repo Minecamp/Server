@@ -7,7 +7,7 @@ awe:
     #how often that a user will get an update on the current que (number of intervals)
     talk-interval: 10
     #number of seconds before repeating a message
-    talk-cooldown: 5
+    talk-cooldown: 10
     #maximum size of the blocks queue
     queue-max-size-hard: 10000000
     #maximum number of blocks on the global queue before unlocking it
