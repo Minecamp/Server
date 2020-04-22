@@ -17,10 +17,6 @@
 !/Essentials/jail.yml
 !/Essentials/info.txt
 
-# LuckPerms
-!LuckPerms/
-!LuckPerms/*
-
 # World Edit
 !WorldEdit/
 !WorldEdit/schematics/
